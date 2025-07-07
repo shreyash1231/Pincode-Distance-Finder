@@ -1,12 +1,12 @@
 <img src="images/Pincode_Distance_Finder_Postman_Test.png" alt="Architecture Diagram" width="600"/>
 <img src="images/Picode_Distance_Finder_Schema.png" alt="Architecture Diagram" width="600"/>
-```
+
 Overview:
 ---------
 This API calculates the distance and duration between two Indian pincodes using the Google Maps API.
 It caches results in a PostgreSQL database and returns the data in a REST-compliant format.
 The application stores latitude and longitude for the pincodes, and also the route polyline.
-
+```
 Database:
 ---------
 - PostgreSQL is used as the RDBMS.
@@ -77,3 +77,4 @@ Instructions:
 
 Author: Shreyash Chandwadkar
 GitHub: https://github.com/shreyash1231/Pincode-Distance-Finder
+```
